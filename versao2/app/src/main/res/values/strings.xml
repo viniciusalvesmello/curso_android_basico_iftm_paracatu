@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Curso Android Básico</string>
+    <string name="start_message_success">Quantidade de Notícias:</string>
+    <string name="start_message_error">Mensagem de erro:</string>
+    <string name="error_load_data_from_api">Erro ao carregar dados da api!</string>
+    <string name="erro_no_data_found">Não foi possível recuperar notícias para o filtro informado</string>
+</resources>
