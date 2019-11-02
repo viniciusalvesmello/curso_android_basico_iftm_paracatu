@@ -6,7 +6,6 @@ import io.github.viniciusalvesmello.cursoAndroidBasicoIftmParacatu.presentation.
 import io.github.viniciusalvesmello.cursoAndroidBasicoIftmParacatu.presentation.model.News
 
 fun ArticleEntity.toArticle(): Article = Article(
-    author = author,
     title = title,
     description = description,
     url = url,

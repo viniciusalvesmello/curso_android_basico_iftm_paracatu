@@ -7,7 +7,6 @@ import io.github.viniciusalvesmello.cursoAndroidBasicoIftmParacatu.domain.model.
 
 
 fun ArticleData.toArticleEntity(): ArticleEntity = ArticleEntity(
-    author = author,
     title = title,
     description = description,
     url = url,

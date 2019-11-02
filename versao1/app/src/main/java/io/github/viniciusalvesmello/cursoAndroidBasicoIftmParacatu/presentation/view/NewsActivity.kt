@@ -6,7 +6,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import io.github.viniciusalvesmello.cursoAndroidBasicoIftmParacatu.R
 import io.github.viniciusalvesmello.cursoAndroidBasicoIftmParacatu.presentation.viewmodel.NewsViewModel
-import kotlinx.android.synthetic.main.activity_home.*
+import kotlinx.android.synthetic.main.activity_news.*
 
 class NewsActivity : AppCompatActivity() {
     
@@ -16,7 +16,7 @@ class NewsActivity : AppCompatActivity() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_news)
         
         initObservers()
         viewModel.getNews(INIT_FILTER)
@@ -26,7 +26,7 @@ class NewsActivity : AppCompatActivity() {
     private fun initObservers() {
 
         viewModel.news.observe(this, Observer {
-            val message =  "${getString(R.string.start_message_success)} ${it.totalResults}"
+            val message =  "${getString(R.string.start_message_success)} ${it.articles.size}"
             textView.text = message
         })
     

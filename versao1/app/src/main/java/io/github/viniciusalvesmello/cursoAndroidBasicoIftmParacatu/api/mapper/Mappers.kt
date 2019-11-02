@@ -6,7 +6,6 @@ import io.github.viniciusalvesmello.cursoAndroidBasicoIftmParacatu.data.model.Ar
 import io.github.viniciusalvesmello.cursoAndroidBasicoIftmParacatu.data.model.NewsData
 
 fun ArticleResponseModel.toArticleData(): ArticleData = ArticleData(
-    author = author,
     title = title,
     description = description,
     url = url,
