@@ -1,1 +1,3 @@
-# curso_android_basico_iftm_paracatu
+## Curso Android Básico - Corujão Tecnológico IFTM Paracatu
+
+**Dia:** 08/11/2019
