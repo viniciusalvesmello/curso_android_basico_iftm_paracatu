@@ -33,4 +33,9 @@ class NewsViewModel : ViewModel() {
             _error.value = it
         })
     }
+    
+    override fun onCleared() {
+        super.onCleared()
+        getNewsUseCase.dispose()
+    }
 }
