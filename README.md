@@ -2,6 +2,10 @@
 
 **Dia:** 08/11/2019
 
+### Slides
+
+[Minicurso Android Básico (IFTM Campus Paracatu)](https://docs.google.com/presentation/d/14xzrk8h6DRHlHUrD8pn4b2hVBs4vDY6c_NcNj-Z6z4U/edit?usp=sharing)
+
 ### Versão Inicial
 
 O curso será iniciado pelo projeto disponível na pasta [versao1](https://github.com/viniciusalvesmello/curso_android_basico_iftm_paracatu/tree/master/versao1), sendo que o mesmo já inclui toda a estrutura para consumir a api do site [News](https://newsapi.org/).
